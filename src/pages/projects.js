@@ -11,7 +11,9 @@ const projects = () => {
 					content="links and looks of projects done"
 				/>
 			</Head>
-			<main>project</main>
+			<main>
+				
+			</main>
 		</>
 	);
 };
