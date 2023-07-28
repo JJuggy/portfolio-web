@@ -6,6 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import {motion} from "framer-motion";
+const FramerImage = motion(Image);
+
 const FeaturedProject = ({type, title, summary, image, link, github}) => {
 	return (
 		<article className="w-full relative p-12 flex items-center justify-between rounded-3xl rounded-br-2xl border-solid border-dark bg-white shadow-2xl">
@@ -16,7 +19,13 @@ const FeaturedProject = ({type, title, summary, image, link, github}) => {
 				href={link}
 				className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
 			>
-				<Image src={image} alt="title" className="w-full h-auto " />
+				<FramerImage
+					whileHover={{scale: 1.05}}
+					transition={{duration: 0.2}}
+					src={image}
+					alt="title"
+					className="w-full h-auto "
+				/>
 			</Link>
 			<div className="w-1/2 flex flex-col items-start  justify-between pl-6">
 				<span className="text-primary font-medium text-xl">{type}</span>
@@ -56,7 +65,13 @@ const Project = ({type, title, summary, image, link, github}) => {
 				href={link}
 				className="w-fullcursor-pointer overflow-hidden rounded-lg"
 			>
-				<Image src={image} alt="title" className="w-full h-auto " />
+				<FramerImage
+					whileHover={{scale: 1.05}}
+					transition={{duration: 0.2}}
+					src={image}
+					alt="title"
+					className="w-full h-auto "
+				/>
 			</Link>
 			<div className="w-full flex flex-col items-start  justify-between mt-4">
 				<span className="text-primary font-medium text-xl">{type}</span>

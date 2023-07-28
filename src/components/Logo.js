@@ -22,7 +22,7 @@ const Logo = () => {
 					},
 				}}
 				href="/"
-				className="w-16 h-16 bg-dark text-light flex items-center justify-center text-xxl font-bold rounded-full"
+				className="w-16 h-16 dark:border-light border border-solid border-transparent dark:border-light bg-dark text-light flex items-center justify-center text-xxl font-bold rounded-full"
 			>
 				AD
 			</MotionLink>
