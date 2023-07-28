@@ -82,10 +82,12 @@ const Article = ({date, img, title, link}) => {
 			initial={{y: 200}}
 			whileInView={{y: 0, transition: {duration: 0.5, ease: "easeInOut"}}}
 			viewport={{once: true}}
-			className="relative border-r-4 border-b-4 w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark"
+			className="relative border-r-4  border-b-4 w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark"
 		>
 			<MovingImage title={title} img={img} link={link} />
-			<span className="text-primary font-semibold pl-4 ">{date}</span>
+			<span className="text-primary dark:text-primaryDark font-semibold pl-4 ">
+				{date}
+			</span>
 		</motion.li>
 	);
 };
@@ -118,7 +120,7 @@ const articles = () => {
 							image={article2}
 						/>
 					</ul>
-					<h2 className="font-bold text-4xl w-full text-center my-16 mt-32 ">
+					<h2 className="font-bold dark:text-light text-4xl w-full text-center my-16 mt-32 ">
 						All Articles
 					</h2>
 

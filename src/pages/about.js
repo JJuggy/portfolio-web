@@ -27,7 +27,7 @@ const AnimatedNumbers = ({value}) => {
 		});
 	}, [SpringValue, value]);
 
-	return <span ref={ref}>{value}</span>;
+	return <span className="dark:text-light" ref={ref}>{value}</span>;
 };
 
 const about = () => {
@@ -45,10 +45,10 @@ const about = () => {
 					/>
 					<div className="grid w-full grid-cols-8 gap-16">
 						<div className="col-span-3 flex flex-col items-start justify-start">
-							<h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
+							<h2 className="mb-4 text-lg font-bold uppercase dark:text-light text-dark/75">
 								Biography
 							</h2>
-							<p className="font-medium">
+							<p className="font-medium dark:text-light">
 								- Hi, I'm Amiolemen David, a Front End Web
 								developer with a passion for creating beautiful,
 								functional, and user-centered digital
@@ -57,14 +57,14 @@ const about = () => {
 								innovative ways to bring my clients' visions to
 								life.
 							</p>
-							<p className=" my-4 font-medium">
+							<p className=" my-4 font-medium dark:text-light">
 								{" "}
 								I believe that design is about more than just
 								making things look pretty – it's about solving
 								problems and creating intuitive, enjoyable
 								experiences for users.
 							</p>
-							<p className="font-medium">
+							<p className="font-medium dark:text-light">
 								{" "}
 								Whether I'm working on a website, mobile app, or
 								other digital product, I bring my commitment to
@@ -74,7 +74,7 @@ const about = () => {
 								your next project.
 							</p>
 						</div>
-						<div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 ">
+						<div className="col-span-3 dark:bg-dark relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 ">
  							<Image
 								src={profilePic}
 								alt="Juggy"
@@ -83,26 +83,26 @@ const about = () => {
 						</div>
 						<div className="col-span-2 flex flex-col items-end justify-between">
 							<div className="flex flex-col items-end justify-center ">
-								<span className="inline-block text-7xl font-bold">
+								<span className="inline-block dark:text-light text-7xl font-bold">
 									<AnimatedNumbers value={50} />+
 								</span>
-								<h2 className="text-xl font-medium capitalize text-dark/75">
+								<h2 className="text-xl dark:text-light font-medium capitalize text-dark/75">
 									Satisfied Clients
 								</h2>
 							</div>
 							<div className="flex flex-col items-end justify-center ">
-								<span className="inline-block text-7xl font-bold">
+								<span className="inline-block dark:text-light text-7xl font-bold">
 									<AnimatedNumbers value={40} />+
 								</span>
-								<h2 className="text-xl font-medium capitalize text-dark/75">
+								<h2 className="text-xl dark:text-light font-medium capitalize text-dark/75">
 									Projects Completed
 								</h2>
 							</div>
 							<div className="flex flex-col items-end justify-center ">
-								<span className="inline-block text-7xl font-bold">
+								<span className="inline-block dark:text-light text-7xl font-bold">
 									<AnimatedNumbers value={3} />+
 								</span>
-								<h2 className="text-xl font-medium capitalize text-dark/75">
+								<h2 className="text-xl font-medium dark:text-light capitalize text-dark/75">
 									Years of experience
 								</h2>
 							</div>

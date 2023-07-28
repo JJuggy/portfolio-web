@@ -28,7 +28,7 @@ const singleword = {
 };
 const AnimatedText = ({text, className = ""}) => {
 	return (
-		<div className="w-full dark:text-light mx-auto py-2 flex items-center justify-center text-center overflow-hidden">
+		<div className="w-full dark:text-light mx-auto py-2 flex items-center justify-center sm:py-0 text-center overflow-hidden">
 			<motion.h1
 				variants={quote}
 				initial="initial"
