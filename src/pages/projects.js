@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/piqy.PNG";
+import project1 from "../../public/images/projects/piqy.jpg";
 import project2 from "../../public/images/projects/a-good-shout.jpg";
 import project3 from "../../public/images/projects/piqy-discover-more.webp";
 import { motion } from "framer-motion";
