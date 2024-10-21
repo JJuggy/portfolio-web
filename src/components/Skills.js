@@ -37,7 +37,8 @@ const Skills = () => {
 				<Skill name="TypeScript" positionX="9vw" positionY="22vw" />
 				<Skill name="React" positionX="-20vw" positionY="2vw" />
 				<Skill name="Next JS" positionX="-35vw" positionY="2vw" />
-				<Skill name="GitHub" positionX="20vw" positionY="-13vw" />
+				<Skill name="Mongo DB" positionX="32vw" positionY="-10vw" />
+				<Skill name="Node JS" positionX="33vw" positionY="-18vw" />
 				<Skill
 					name="Tailwind CSS"
 					positionX="-20vw"

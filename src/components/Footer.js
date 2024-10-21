@@ -3,28 +3,13 @@ import Layout from "./Layout";
 import Link from "next/link";
 
 const Footer = () => {
-	return (
-		<footer className="w-full dark:text-light dark:border-light  border-t-2 border-solid border-dark font-medium text-lg">
-			<Layout className="pt-8 flex items-center justify-between ">
-				<span>
-					{new Date().getFullYear()} &copy; All Rights Reserved
-				</span>
-				<div className="flex items-center">
-					Build with{" "}
-					<span className="dark:text-primaryDark text-primary px-1 text-2xl">
-						&#9825;
-					</span>{" "}
-					by &nbsp;
-					<Link href="/" className="underline underline-offset-2">
-						Code Bucks
-					</Link>
-				</div>
-				<Link href="/" className="underline underline-offset-2">
-					Say hello
-				</Link>
-			</Layout>
-		</footer>
-	);
+  return (
+    <footer className="w-full dark:text-light dark:border-light  border-t-2 border-solid border-dark font-medium text-lg">
+      <Layout className="pt-8 flex items-center justify-between ">
+        <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
+      </Layout>
+    </footer>
+  );
 };
 
 export default Footer;

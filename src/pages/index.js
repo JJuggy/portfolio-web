@@ -36,7 +36,7 @@ export default function Home() {
 							/>
 							<h1></h1>
 							<p className="my-4 font-medium text-base">
-								As a skilled full-stack developer, I am
+								As a skilled software developer, I am
 								dedicated to turning ideas into innovative web
 								applications. Explore my latest projects and
 								articles, showcasing my expertise in React.js

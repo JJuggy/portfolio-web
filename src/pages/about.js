@@ -49,7 +49,7 @@ const about = () => {
 								Biography
 							</h2>
 							<p className="font-medium dark:text-light">
-								- Hi, I'm Amiolemen David, a Front End Web
+								- Hi, I'm Amiolemen David, a Software
 								developer with a passion for creating beautiful,
 								functional, and user-centered digital
 								experiences. With 3 years of experience in the
@@ -84,7 +84,7 @@ const about = () => {
 						<div className="col-span-2 flex flex-col items-end justify-between">
 							<div className="flex flex-col items-end justify-center ">
 								<span className="inline-block dark:text-light text-7xl font-bold">
-									<AnimatedNumbers value={50} />+
+									<AnimatedNumbers value={10} />+
 								</span>
 								<h2 className="text-xl dark:text-light font-medium capitalize text-dark/75">
 									Satisfied Clients
@@ -92,7 +92,7 @@ const about = () => {
 							</div>
 							<div className="flex flex-col items-end justify-center ">
 								<span className="inline-block dark:text-light text-7xl font-bold">
-									<AnimatedNumbers value={40} />+
+									<AnimatedNumbers value={9} />+
 								</span>
 								<h2 className="text-xl dark:text-light font-medium capitalize text-dark/75">
 									Projects Completed
@@ -100,7 +100,7 @@ const about = () => {
 							</div>
 							<div className="flex flex-col items-end justify-center ">
 								<span className="inline-block dark:text-light text-7xl font-bold">
-									<AnimatedNumbers value={3} />+
+									<AnimatedNumbers value={4} />+
 								</span>
 								<h2 className="text-xl font-medium dark:text-light capitalize text-dark/75">
 									Years of experience
