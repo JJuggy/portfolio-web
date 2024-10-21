@@ -103,7 +103,7 @@ const Navbar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            href="/"
+            href="https://www.linkedin.com/in/david-amiolemen-6a9bb3a4/"
             className="w-6 mx-3"
           >
             <LinkedInIcon />
@@ -111,7 +111,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             whileHover={{ y: -2 }}
-            href="/"
+            href="https://github.com/JJuggy"
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >

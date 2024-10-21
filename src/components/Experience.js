@@ -55,23 +55,33 @@ const Experience = () => {
             company={"A Good Shout LTD"}
             time="2021 - present"
             address="London, UK"
-            work="Worked on a team responsible for developing new features for Googles 
-                   search engine, including improving the accuracy and relevance of search results and 
-                   developing new tools for data analysis and visualization"
+            work=" I maintained and implemented new features on existing React Native and ReactJS
+codebases, working closely with backend developers and product designers "
           />
           <Details
             position="Lead Front end engineer "
             company={"Prime bazaar"}
             time="Contract"
             address="Lagos, Nigeria"
-            work="Designed, built, and maintained websites using Figma ,Vue React and other front end technologies. Identified and reported issues uncovered from testing or customer feedback with actions for rectification.  Maintained an understanding of current web technologies and programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.  Collaborated with the content team to create, edit and update"
+            work="Developed the REST APIs, managed the database migration, deployment to
+production, and maintained API documentation"
+          />
+          <Details
+            position="Back End engineer "
+            company={"Hemify"}
+            time="Contract"
+            address="Lagos, Nigeria"
+            work="Developed the REST APIs, managed the database migration, deployment to
+production, and maintained API documentation."
           />
           <Details
             position="Front End Developer"
             company={"Afroverified"}
             time="2018 - 2019"
             address="Lagos, Nigeria"
-            work="Designed, built, and maintained websites using Figma ,Vue React and other front end technologies. Identified and reported issues uncovered from testing or customer feedback with actions for rectification.  Maintained an understanding of current web technologies and programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.  Collaborated with the content team to create, edit and update"
+            work="Utilised React and Redux to build responsive user interfaces, while working with
+UX/UI designers to ensure a consistent, visually appealing experience and debugging
+front-end issues"
           />
         </ul>
       </div>

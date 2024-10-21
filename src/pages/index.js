@@ -55,7 +55,7 @@ export default function Home() {
 								<Link
 									className="ml-4 text-lg dark:text-light font-medium capitalize text-dark underline underline-offset-2 transition-all"
 									target={"_blank"}
-									href="/mailto:Amidavid01@gmail.com"
+									href="mailto:Amidavid01@gmail.com"
 								>
 									Contact
 								</Link>
